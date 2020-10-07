@@ -1,0 +1,1 @@
+console.info("run a gauge command e.g gauge run .\specs\example.spec");
