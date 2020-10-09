@@ -98,7 +98,7 @@ step("check on registration page", async function () {
 
 beforeScenario(async function () {
   driver = await new Builder().forBrowser('chrome').build();
-  await driver.get('https://portal.jerseyfsc.org/');
+  await driver.get('https://my_luvvly_site/');
 });
 
 afterScenario(async function (){
